@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Nirman Builder | house and villa construction{% endblock title %}
+{% block meta_description %}Build your home with our expert house and villa construction services. our vision is to build your home as per your requirements.{% endblock %}
+{% block meta_keywords %}Nirman Builder,house and villa construction.{% endblock %}
+{% block meta_author %}Page Author{% endblock %}
+{% block og_title %}Page-Specific Title{% endblock %}
+{% block og_description %}This is a page-specific Open Graph description.{% endblock %}
+{% block og_url %}{% url 'index' %}{% endblock %}
+{% block canonical_url %}{% url 'index' %}{% endblock %}
+{% block robots_meta %}index, follow{% endblock %}
+
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        position: relative;
+        font-weight: 400;
+        margin: 25px;
+        background: 0 0;
+        line-height: 1.2em;
+    }
+</style>
+
+
+<section class="section p-none txt-justify" style="background: #fff;">
+    <div class="container">
+        <div class=" content-box content-box1">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sec-title text-center" style="margin-top: 25px">
+                        <h2 class="text-center">HOUSE/VILLA CONSTRUCTION </h2>
+                    </div>
+                </div>
+                <div class="col-md-6 bdrrht">
+                    <h3>Architecture & Design Service</h3>
+                    
+                        <p>
+                           Welcome to Nirman Builder, the prime destination for remarkable house and villa construction services. As the Best construction company in mysore, we specialize in delivering custom designs that embody quality and innovation.
+                        </p></br>
+                        <p>
+                           With our team of skilled <a href="https://www.nirmanbuilder.com/custom_project">architects</a> and engineers, we take pride in transforming your vision into reality. From the initial concept to the final touch, we are dedicated to surpassing your expectations at every stage of the construction process.
+
+                        </p></br>
+
+                        <p>
+                           At Nirman Builder, we understand that your home is more than just a building. It's a mirror reflection of your unique lifestyle where memories are created. That's why we approach every project with meticulous attention to detail, ensuring that every element aligns seamlessly with your preferences and requirements.
+                        </p></br>
+                        <p>
+                           Our dedication is to use the highest quality materials and advanced construction techniques, Whether you desire a revolutionary architectural marvel or a classic villa with ornate detailing, we have the expertise to bring your dream to life with our cutting-edge construction methods
+
+                        </p>
+                </div>
+                <div class="col-md-6 p-none">
+                    <img src="{% static 'img/services/pageimg/one.PNG' %}" class="img-responsive" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class="section p-none txt-justify" style="background: #fafafa;">
+    <div class="container">
+        <div class=" content-box content-box1">
+            <div class="row">
+                <div class="col-md-12">
+                    {% comment %} <div class="sec-title text-center" style="margin-top: 25px">
+                        <h2 class="text-center">Construction </h2>
+                    </div> {% endcomment %}
+                </div>
+                <div class="col-md-6 p-none bdrrht">
+                    <img src="{% static 'img/services/pageimg/two.PNG' %}" class="img-responsive" alt="Image" />
+                </div>
+                <div class="col-md-6">
+                    <h3>Nirman Builder: Your Trusted Partner for House and Villa Construction
+                    </h3>
+                    <ul class="bullet-list">
+                        <li>Luxury House Construction</li>
+                        <li>Custom Villa Design and Build</li>
+                        <li>High-Quality Home Construction</li>
+                        <li>Expert Architects and Engineers</li>
+                        <li>Innovative Design Solutions</li>
+                        <li>Quality Craftsmanship</li>
+                        <li>Timely Project Delivery</li>
+                        <li>Transparent Communication</li>
+                        <li>Competitive Pricing</li>
+                        <li>Customer Satisfaction Assured</li>
+                        <li>After Sales Service</li>
+                        <li>Support System</li>
+                      </ul>
+                      
+                      <style>
+                        .bullet-list {
+                            list-style-type: none;
+                          }
+                          
+                          .bullet-list li::before {
+                            content: "•"; /* You can change this to any symbol you like */
+                            font-weight: bold;
+                            margin-right: 5px;
+                          }
+                          
+                      </style>
+                    </br><p>
+                     Experience the difference of working with a <a href="https://www.nirmanbuilder.com/renovation">construction</a> company in Mysore that is committed to excellence in every aspect. Contact Nirman Builder today to begin your building the house or villa of your dreams.
+    
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+ </section>
+ 
+ 
+
+{% endblock %}

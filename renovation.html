@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Nirman Builder | Renovation{% endblock title %}
+{% block meta_description %}Enhance your space with our expert renovation services. Transform your home or commercial building with a new look, and build with trust.{% endblock %}
+{% block meta_keywords %}Nirman Builder,construction company, Renovation{% endblock %}
+{% block meta_author %}Page Author{% endblock %}
+{% block og_title %}Page-Specific Title{% endblock %}
+{% block og_description %}This is a page-specific Open Graph description.{% endblock %}
+{% block og_url %}{% url 'index' %}{% endblock %}
+{% block canonical_url %}{% url 'index' %}{% endblock %}
+{% block robots_meta %}index, follow{% endblock %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<style>
+    h1, h2, h3, h4, h5, h6 {
+        position: relative;
+        font-weight: 400;
+        margin: 25px;
+        background: 0 0;
+        line-height: 1.2em;
+    }
+</style>
+
+
+<section class="section p-none txt-justify" style="background: #fff;">
+    <div class="container">
+        <div class=" content-box content-box1">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sec-title text-center" style="margin-top: 25px">
+                        <h2 class="text-center">Renovation </h2>
+                    </div>
+                </div>
+                <div class="col-md-6 bdrrht">
+                    <h3>Reinvigorate Your Space with Nirman Builder's Renovation Expertise</h3>
+                    
+                        <p>
+                            Renovate your home with Nirman Builder. Whether you're looking to transform your home, office, or commercial space, our skilled team is here to bring new life to your surroundings.
+                        </p></br>
+                        <p>
+                            We specialize in delivering seamless <a href="https://www.nirmanbuilder.com/custom_project">renovation</a> solutions that enliven your space to its full potential. Our dedicated team collaborates closely with you, understanding your vision and aspirations, to create a customized plan that suits your unique requirements We have years of experience and a passion for excellence as we started renovating in Mysore with our happy customer's space.
+                        </p></br>
+
+                        <p>
+                            Nirman Builder is not just a builder, but a vision that crafts your requirement. we believe that a successful renovation project goes beyond just aesthetics. We focus on enhancing functionality, optimizing space utilization, and incorporating sustainable design principles to ensure a harmonious balance between style and practicality.
+
+                        </p></br>
+                        <p>
+                            Our home renovation services cover a wide range of areas , including kitchens, bathrooms, living spaces, offices, retail spaces, and washrooms. Whether you're seeking a modern design, timeless allure, or classic transformation, our team of experts brings creative design solutions and expert artistry to every project. 
+                        </p>
+                </div>
+                <div class="col-md-6 p-none">
+                    <img src="{% static 'img/services/pageimg/5.PNG' %}" class="img-responsive" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class="section p-none txt-justify" style="background: #fafafa;">
+    <div class="container">
+        <div class=" content-box content-box1">
+            <div class="row">
+                <div class="col-md-12">
+                    {% comment %} <div class="sec-title text-center" style="margin-top: 25px">
+                        <h2 class="text-center">Construction </h2>
+                    </div> {% endcomment %}
+                </div>
+                <div class="col-md-6 p-none bdrrht">
+                    <img src="{% static 'img/services/pageimg/6.PNG' %}" class="img-responsive" alt="Image" />
+                </div>
+                <div class="col-md-6">
+                    <h3>Key Features of Nirman Builder's Renovation Services:
+
+                    </h3>
+                    <ul class="bullet-list">
+                        <li>Competitive Rates.
+                        </li>
+                        <li>on-time completion.
+                        </li>
+                        <li>Skilled Artisanship.
+                        </li>
+                        <li>Build a comfortable space.
+                        </li>
+                        <li>Artistic Design Solutions.
+                        </li>
+                        <li>Efficient Space Utilization.
+                        </li>
+                        <li>Sustainable Design Practices.
+                        </li>
+                        <li>Remodel your bathing experience.</li>
+                        </li>
+                        <li>Extensive Consultation and Planning.
+                        </li>
+                        <li>Commitment to ensuring customer satisfaction.
+                        <li>
+
+                        </li>
+                      </ul>
+                      
+                      <style>
+                        .bullet-list {
+                            list-style-type: none;
+                          }
+                          
+                          .bullet-list li::before {
+                            content: "•"; /* You can change this to any symbol you like */
+                            font-weight: bold;
+                            margin-right: 5px;
+                          }
+                          
+                      </style>
+                    </br><p>
+                        Experience the impactful results of a meticulously executed renovation project. Reach out to Nirman Builder today and let our experts revitalize your space, realizing your vision with unmatched precision and flair.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+ </section>
+ 
+ 
+
+{% endblock %}

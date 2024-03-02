@@ -1,0 +1,199 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Nirman Builder | Contact us{% endblock title %}
+{% block meta_description %}Contact us for your assistance, our team is here to help you with your issues, we will answer your call and solve the issue.{% endblock %}
+{% block meta_keywords %}Nirman Builder, Contact us.{% endblock %}
+{% block meta_author %}Page Author{% endblock %}
+{% block og_title %}Page-Specific Title{% endblock %}
+{% block og_description %}This is a page-specific Open Graph description.{% endblock %}
+{% block og_url %}{% url 'index' %}{% endblock %}
+{% block canonical_url %}{% url 'index' %}{% endblock %}
+{% block robots_meta %}index, follow{% endblock %}
+
+{% block title %} Contact Us {% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <style>
+        
+        .krform{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            width: 400px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 4px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="text-center">Contact Us </h2>
+    <div class="krform">
+        <div class="form-container">
+            
+        
+                <div class="form-group">
+                    <label for="name">Address:</label>
+                    <p>733 Jaladhama, Bogadi 2nd stage
+                        Opp water tank, Near Bank of Baroda.
+                        Mysore 570026</p></br>
+                    {% comment %} <p>#1312/1, 1st Floor, Sri Lakshmi Arched, Near Nanneshwara Temple, Hunsur-Mysore Road, Hinkal Mysore-570030</p> {% endcomment %}
+                </div>
+                <div class="form-group">
+                    <label for="email">Mobile:</label>
+                    <p>+91 9019770769</p>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <p>nirmanbuilder@gmail.com</p>
+                </div>
+                <div class="form-group">
+                   <p>If you have any questions or need assistance, please feel free to reach out to us.</p></br>
+                    <p>We strive to provide exceptional customer service and will do our best to assist you promptly. Your satisfaction is our top priority.  and we'll be more than happy to assist you.</p>
+                </div>
+                
+             
+        </div>
+        <div class="form-container">
+            <h2>Call back request</h2>
+            <form method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Mobile:</label>
+                    <input type="text" id="mobile" name="mobile" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+    </div>
+    {% comment %} <style>
+        .map-container {
+            display: flex;
+            justify-content: center;
+           
+           
+          }
+          
+    </style>
+    <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.1799538995392!2d77.60358264069475!3d12.9134855675889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae173d0ddb2e91%3A0xc90c4390201d1569!2sBUILDING%20GHAR!5e0!3m2!1sen!2sin!4v1685950671791!5m2!1sen!2sin" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> {% endcomment %}
+    <style>
+        h1, h2, h3, h4, h5, h6 {
+            position: relative;
+            font-weight: 400;
+            margin: 25px;
+            background: 0 0;
+            line-height: 1.2em;
+        }
+     </style>
+     
+     
+     
+     
+     
+     
+      <section class="section p-none txt-justify" style="background: #fff;">
+        <div class="container">
+            <div class=" content-box content-box1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sec-title text-center" style="margin-top: 25px">
+                            <h2 class="text-center">Architecture </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 bdrrht">
+                        <h3>Architecture & Design Service</h3>
+                        <h4>“We design for the present with the understanding of the past and prediction of the future”</h4>
+                        <p>Architecture is the art and science of designing and constructing buildings. It combines aesthetics, functionality, and practicality to create spaces that serve the needs and aspirations of individuals and communities. This is where Nirman Builder is involved in architectural design in Mysore. Architectural design involves carefully considering site characteristics, environmental impact, cultural context, and user requirements. Architects use various tools and techniques, including sketches, computer-aided design (CAD), and physical models, to visualize and communicate their ideas. The field of architecture continually evolves, reflecting changes in technology, while also embracing principles of sustainability and innovation. Ultimately, architecture plays a vital role in shaping the built environment, influencing how people interact with and experience the spaces around them. </p>
+                    </div>
+                    <div class="col-md-6 p-none">
+                        <img src="{% static 'img/architectural_service1.jpg' %}" class="img-responsive" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <section class="section p-none txt-justify" style="background: #fafafa;">
+        <div class="container">
+            <div class=" content-box content-box1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sec-title text-center" style="margin-top: 25px">
+                            <h2 class="text-center">Construction </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-none bdrrht">
+                        <img src="{% static 'img/about-villa.png' %}" class="img-responsive" alt="Image" />
+                    </div>
+                    <div class="col-md-6">
+                        <h3>House/Villa Construction</h3>
+                        <h4>“A transparent and outstanding construction service with 5 years of warranty”</h4>
+                        <p>Nirman Builder has numerous years of experience in the construction industry, particularly specializing in villa/ house construction, our construction company in Mysore brings a wealth of expertise to every project we undertake. Over the years, we've honed our skills, perfected our processes, and built a strong reputation for delivering high-quality construction and custom-built homes that match our client's expectations. From concept to completion, we prioritize precision, efficiency, and client satisfaction, ensuring that each house or villa construction in Mysore, we construct reflects the unique needs and preferences of our clients. With a proven track record of success and a commitment to excellence, you can trust us to build your dream home to life with expertise and professionalism. We stand behind the quality of our work with a 5-year warranty, providing our clients with peace of mind long after the project is completed. Customer satisfaction is our priority, we are committed to going above and beyond to exceed the expectations of our customers. </p>
+                        <p>
+                            Every house owner is valued at Nirman Builder, We are happy and serene when our house owner’s expectations are met. Hence, we boldly offer 5 years of warranty.
+                        </p>
+                        <p>
+                            Through on-time completion of projects, we have earned the trust in the market. Our professional and friendly customer service made us stand out distinctively from the crowd.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+</body>
+</html>
+
+
+{% endblock %}
